@@ -8,7 +8,31 @@ const Footer = () => {
         <div className="footer-top font-link">
           <div className="container">
             <div className="row">
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-3 col-md-6 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li>
+                    <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>{" "}
+                    <a href="#">About us</a>
+                  </li>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>{" "}
+                    <a href="#">Services</a>
+                  </li>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>{" "}
+                    <a href="#">Terms of service</a>
+                  </li>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>{" "}
+                    <a href="#">Privacy policy</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-lg-4 col-md-6 ">
                 <div className="footer-info">
                   <img
                     src="assets/img/ft-logo.png"
@@ -44,30 +68,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Useful Links</h4>
-                <ul>
-                  <li>
-                    <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">About us</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Services</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Terms of service</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Privacy policy</a>
-                  </li>
-                </ul>
-              </div>
+
               {/* <div className="col-lg-3 col-md-6 footer-links">
                 <h4>Our Services</h4>
                 <ul>
