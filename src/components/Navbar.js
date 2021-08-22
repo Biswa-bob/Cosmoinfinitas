@@ -21,11 +21,6 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#menu">
-                Builder
-              </a>
-            </li>
-            <li>
               <a className="nav-link scrollto" href="#specials">
                 Docs
               </a>
