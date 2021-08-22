@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  background: #f0efec;
   color: #fff;
 }
 
@@ -31,6 +31,9 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
+}
+h1{
+  color:white;
 }
 
 /*--------------------------------------------------------------
@@ -183,7 +186,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 40px;
+  /* top: 40px; */
 }
 
 #header.header-scrolled {
@@ -827,8 +830,56 @@ section {
   right: 10px;
   bottom: 10px;
 }
+.about h1 {
+	padding: 10px 0;
+  color:white;
+	margin-bottom: 20px;
+}
+.about h2 {
+	opacity: .8;
+}
+.about span {
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin:auto;
+	border-radius:50%;  
+	font-size: 40px;
+	color: #FFFFFF;
+	opacity: 0.7;
+	background-color: transparent;
+	border: 2px solid #eff3f3;
 
-.about .content h3 {
+	webkit-transition:all .5s ease;
+ 	moz-transition:all .5s ease;
+ 	os-transition:all .5s ease;
+ 	transition:all .5s ease;
+
+}
+.about-item:hover span{
+	opacity: 1;	
+	border: 2px solid #0b4881;
+	font-size: 42px;
+	-webkit-transform: scale(1.1,1.1) rotate(360deg) ;
+	-moz-transform: scale(1.1,1.1) rotate(360deg) ;
+	-o-transform: scale(1.1,1.1) rotate(360deg) ;
+	transform: scale(1.1,1.1) rotate(360deg) ;
+}
+.about-item:hover h2{
+	opacity: 1;
+	-webkit-transform: scale(1.1,1.1)  ;
+	-moz-transform: scale(1.1,1.1)  ;
+	-o-transform: scale(1.1,1.1)  ;
+	transform: scale(1.1,1.1) ;
+}
+.about .lead{
+	color: #f7eaee;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* .about .content h3 {
   font-weight: 600;
   font-size: 26px;
 }
@@ -850,176 +901,157 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
-}
+} */
 
 @media (min-width: 1024px) {
   .about {
     background-attachment: fixed;
   }
 }
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
-}
-
-.contact .info i {
-  font-size: 20px;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #cda45e;
+/* Team */
+.cont{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
+align-items: center;
+justify-content: center;
+width: 80%;
+margin: auto;
 }
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 5px;
-  font-family: "Poppins", sans-serif;
+.team{
+  background-color: rgb(240, 233, 233);
 }
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #bab3a6;
+.team h1{
+  color:black;
+  font-size:50px;
 }
-
-.contact .info .open-hours,
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
+.our-team{
+  background:#e4eff7;
+text-align: center;
+overflow: hidden;
+position: relative;
+margin: 0px 25px;
+ padding: 30px 70px;
+ width: 30%;
+ border-radius: 15px;
 }
-
-.contact .php-email-form {
-  width: 100%;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
+.our-team .pic{
   display: inline-block;
+
+width: 130px;
+
+height: 130px;
+
+margin-bottom: 0px;
+
+z-index: 1;
+
+position: relative;
+}
+.our-team .pic::before{
+  content: "";
+width: 100%;
+height: 0;
+border-radius: 50%;
+background: #27AAE1;
+position: absolute;
+bottom: 135%;
+right: 0;
+left: 0;
+opacity: 0.2;
+transform: scale(3);
+transition: all 0.3s linear 0s;
+}
+.our-team:hover .pic::before{
+  height:100%;
+}
+.our-team .pic:after{
+  content: "";
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background: #052c75;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+
+.our-team .pic img{
+  width:100%;
+  height:auto;
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #cda45e;
-  border-top-color: #1a1814;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
+  transform:scale(1);
+  transition: all 0.9s ease 0s;
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  background: #0c0b09;
-  border-color: #625b4b;
-  color: white;
 }
-
-.contact .php-email-form input::-webkit-input-placeholder,
-.contact .php-email-form textarea::-webkit-input-placeholder {
-  color: #a49b89;
+.our-team:hover .pic img{
+  box-shadow:0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
 }
-
-.contact .php-email-form input::-moz-placeholder,
-.contact .php-email-form textarea::-moz-placeholder {
-  color: #a49b89;
+.our-team .team-content{
+  margin-bottom:30px;
 }
+.our-team .title{
+  font-size: 22px;
 
-.contact .php-email-form input::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: #a49b89;
+font-weight: 700;
+
+color: #4e5052;
+
+letter-spacing: 1px;
+
+margin-bottom: 5px;
 }
-
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-  border-color: #cda45e;
+.our-team .post{
+  display:block;
+  font-size:15px;
+  color:#4e5052;
 }
+.our-team .social{
+  width: 100%;
 
-.contact .php-email-form input {
-  height: 44px;
+padding: 0;
+
+margin: 0;
+
+/* background: #042747; */
+background: #060648;
+
+position: absolute;
+
+bottom: -100px;
+
+left: 0;
+
+transition: all 0.5s ease 0s;
 }
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
+.our-team:hover .social{
+  bottom:0;
 }
-
-.contact .php-email-form button[type="submit"] {
-  background: #cda45e;
-  border: 0;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
+.our-team .social li{
+  display:inline-block;
 }
+.our-team .social li a{
+  text-decoration: none;
 
-.contact .php-email-form button[type="submit"]:hover {
-  background: #d3af71;
+display: block;
+
+padding: 10px;
+
+font-size: 17px;
+
+color: #fff;
+
+transition: all 0.3s ease 0s;
 }
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
+@media (max-width:768px){
+  .cont{
+      flex-direction: column;
   }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
+  .our-team{
+      width:80%;
+      margin-top:30px;
   }
 }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

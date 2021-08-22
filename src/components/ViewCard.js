@@ -3,8 +3,10 @@ import React from "react";
 const ViewCard = () => {
   return (
     <>
-      <section id="about" className="about">
+      <section id="about" className="text-center about">
+      
         <div className="container" data-aos="fade-up">
+        <h1>About US</h1>
           <div className="row">
             {/* <div
               className="col-lg-6 order-1 order-lg-2"
@@ -15,7 +17,7 @@ const ViewCard = () => {
                 <img src="assets/img/about.jpg" alt="" />
               </div>
             </div> */}
-            <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            {/* <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
               <h3>
                 Voluptatem dignissimos provident quasi corporis voluptates sit
                 assumenda.
@@ -47,6 +49,22 @@ const ViewCard = () => {
                 cupidatat non proident, sunt in culpa qui officia deserunt
                 mollit anim id est laborum
               </p>
+            </div> */}
+            <div class="col-md-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200" >
+              <span class="icofont-ui-user-group"></span>
+              <h2>Section 1</h2>
+              <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+            </div>
+            <div class="col-md-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
+              <span class="icofont-ui-user-group"></span>
+              <h2>Section 2 </h2>
+              <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </p>
+            </div>
+            <div class="clearfix visible-md-block visible-sm-block"></div>
+            <div class="col-md-6  col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
+              <span class="icofont-ui-user-group"></span>
+              <h2>Section 3</h2>
+              <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
             </div>
           </div>
         </div>
