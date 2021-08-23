@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
             <li>
               <a className="nav-link scrollto" href="#gallery">
-                DAO
+                WhitePaper
               </a>
             </li>
             <li>
