@@ -30,13 +30,16 @@ const Contact = () => {
     width: "100%",
     height: "290px",
   };
+  const s={
+    color:"white"
+  };
   return (
     <>
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Contact</h2>
-            <p>Contact Us</p>
+            <p style={s}>Contact Us</p>
           </div>
 
           <div class="row" >

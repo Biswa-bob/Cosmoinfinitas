@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url("../img/bg-3.png");
+  /* background-image: url("../img/bg-3.png"); */
   color: #fff;
 }
 
@@ -663,7 +663,7 @@ section {
 }
 
 .section-bg {
-  background-color: #1a1814;
+  background-color: #f8f6f1;
 }
 
 .section-title {
@@ -911,16 +911,16 @@ section {
   margin: auto;
 }
 .team {
-  /* background-color: rgb(240, 233, 233); */
+  background-color: rgb(240, 233, 233);
   /* background-image: url("../img/bg-3.png"); */
   /* height: 100vh; */
 }
 .team h1 {
-  color: rgb(252, 246, 246);
+  color: #1795cf;
   font-size: 50px;
 }
 .our-team {
-  background: #e4eff7;
+  background: #f5fafc;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -1051,9 +1051,13 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  background-color: #091a66;
+}
 .contact .info {
   width: 100%;
   /* background-image: url("../img/bg-3.png"); */
+ 
 }
 
 .contact .info i {
@@ -1061,7 +1065,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: #1188b8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1155,7 +1159,7 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #0c0b09;
+  background: #e4e1dc;
   border-color: #625b4b;
   color: white;
 }
@@ -1189,7 +1193,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #cda45e;
+  background: #10658d;
   border: 0;
   padding: 10px 35px;
   color: #fff;
