@@ -39,7 +39,7 @@ const Contact = () => {
             <p>Contact Us</p>
           </div>
 
-          <div class="row">
+          <div class="row" >
             <div class="col-lg-5 d-flex align-items-stretch">
               <div class="info">
                 <div class="address">
@@ -79,7 +79,7 @@ const Contact = () => {
                 onSubmit={formSubmit}
               >
                 <div class="form-row">
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-md-12">
                     <label for="name">Your Name</label>
                     <input
                       type="text"
@@ -93,7 +93,7 @@ const Contact = () => {
                     />
                     <div class="validate"></div>
                   </div>
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-md-12">
                     <label for="name">Your Email</label>
                     <input
                       type="email"
