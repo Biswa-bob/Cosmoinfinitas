@@ -32,6 +32,40 @@ const Team = (props) => {
             insta="#"
           />
         </div>
+        <div className="cont">
+          <TeamCard
+            src="assets/img/mypic.jpg"
+            title="Prateek Nair"
+            post="WEB Devloper"
+            linkedin="#"
+            github="#"
+            insta="#"
+          />
+          <TeamCard
+            src="assets/img/mypic.jpg"
+            title="Prateek Nair"
+            post="WEB Devloper"
+            linkedin="#"
+            github="#"
+            insta="#"
+          />
+          <TeamCard
+            src="assets/img/mypic.jpg"
+            title="Prateek Nair"
+            post="WEB Devloper"
+            linkedin="#"
+            github="#"
+            insta="#"
+          />
+          <TeamCard
+            src="assets/img/mypic.jpg"
+            title="Prateek Nair"
+            post="WEB Devloper"
+            linkedin="#"
+            github="#"
+            insta="#"
+          />
+        </div>
       </section>
     </>
   );

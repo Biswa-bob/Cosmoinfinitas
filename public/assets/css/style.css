@@ -909,9 +909,10 @@ section {
   justify-content: center;
   width: 80%;
   margin: auto;
+  padding-top: 30px;
 }
 .team {
-  background-color: rgb(240, 233, 233);
+  background-color: #e9f6fe;
   /* background-image: url("../img/bg-3.png"); */
   /* height: 100vh; */
 }
@@ -925,7 +926,7 @@ section {
   overflow: hidden;
   position: relative;
   margin: 0px 15px;
-  padding: 30px 70px;
+  padding: 30px 70px !important;
   width: 30%;
   border-radius: 15px;
 }
@@ -1051,13 +1052,12 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact{
-  background-color: #091a66;
+.contact {
+  background-color: #110733;
 }
 .contact .info {
   width: 100%;
   /* background-image: url("../img/bg-3.png"); */
- 
 }
 
 .contact .info i {
@@ -1072,9 +1072,8 @@ section {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
-@media(max-width:768px){
-  .contact .info i{
-    
+@media (max-width: 768px) {
+  .contact .info i {
     text-align: center;
   }
 }
@@ -1155,7 +1154,7 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  width:100%;
+  width: 100%;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
