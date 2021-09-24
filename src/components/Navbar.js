@@ -16,7 +16,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto " href="#market">
+              <a className="nav-link scrollto " href="http://localhost:3000">
                 MarketPlace
               </a>
             </li>
