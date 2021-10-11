@@ -31,12 +31,13 @@ const Contact = () => {
     height: "290px",
   };
   const s={
-    color:"white"
+    color:"white",
+    textalign:"center"
   };
   return (
     <>
       <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
+        {/* <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Contact</h2>
             <p style={s}>Contact Us</p>
@@ -151,7 +152,54 @@ const Contact = () => {
               </form>
             </div>
           </div>
+        </div> */}
+        <div class="section-title">
+            
+            <p style={s}>Contact Us</p>
+          </div>
+        <div class="containe">
+       
+  <div class="conten">
+    <div class="left-side">
+      <div class="address details">
+        <i class="icofont-address-book"></i>
+        <div class="topic">Address</div>
+        <div class="text-one">Surkhet, NP12</div>
+        <div class="text-two">Birendranagar 06</div>
+      </div>
+      <div class="phone details">
+        <i class="icofont-phone"></i>
+        <div class="topic">Phone</div>
+        <div class="text-one">+0098 9893 5647</div>
+        <div class="text-two">+0096 3434 5678</div>
+      </div>
+      <div class="email details">
+        <i class="icofont-send-mail"></i>
+        <div class="topic">Email</div>
+        <div class="text-one">email@gmail.com</div>
+        <div class="text-two">info.email@gmail.com</div>
+      </div>
+    </div>
+    <div class="right-side">
+      <div class="topic-text">Send us a message</div>
+      {/* <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p> */}
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name" />
         </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email" />
+        </div>
+        <div class="input-box message-box">
+        <input type="text" placeholder="Enter a short description"/>
+                </div>
+        <div class="button">
+          <input type="button" value="Send Now" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
       </section>
     </>
   );

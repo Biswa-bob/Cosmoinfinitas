@@ -5,7 +5,7 @@ const Navbar = () => {
     <header id="header" className="fixed-top d-flex align-items-cente">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
         <a href="index.html" className="logo me-auto me-lg-0">
-          <img src="assets/img/logo.png" alt="" className="img-fluid" />
+          <img src="assets/img/logo-main-nav.png" alt="" className="img-fluid" width="70px" id="logo"/>
         </a>
 
         <nav id="navbar" className="navbar order-last order-lg-0">
