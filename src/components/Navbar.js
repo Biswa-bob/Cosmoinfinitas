@@ -5,14 +5,20 @@ const Navbar = () => {
     <header id="header" className="fixed-top d-flex align-items-cente">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
         <a href="index.html" className="logo me-auto me-lg-0">
-          <img src="assets/img/logo-main-nav.png" alt="" className="img-fluid" width="70px" id="logo"/>
+          <img
+            src="assets/img/logo-main-nav.png"
+            alt=""
+            className="img-fluid"
+            width="70px"
+            id="logo"
+          />
         </a>
 
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
             <li>
               <a className="nav-link scrollto active" href="#hero">
-                Home
+                <strong>Home</strong>
               </a>
             </li>
             <li>
@@ -20,37 +26,37 @@ const Navbar = () => {
                 className="nav-link scrollto "
                 href="https://cosmo-marketplace.vercel.app/"
               >
-                MarketPlace
+                <strong>MarketPlace</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#about">
-                About
+                <strong>About</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#specials">
-                Docs
+                <strong>Docs</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#events">
-                Events
+                <strong>Events</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#chefs">
-                Blogs
+                <strong>Blogs</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#gallery">
-                WhitePaper
+                <strong>WhitePaper</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#contact">
-                Contact
+                <strong>Contact</strong>
               </a>
             </li>
           </ul>
@@ -60,7 +66,7 @@ const Navbar = () => {
           href="#book-a-table"
           className="book-a-table-btn scrollto d-none d-lg-flex"
         >
-          Start Exploring
+          <strong>Start Exploring</strong>
         </a>
       </div>
     </header>

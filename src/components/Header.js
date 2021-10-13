@@ -12,18 +12,39 @@ const Header = () => {
           <div class="row">
             <div class="col-lg-8">
               <h1>
-                Welcome to <span>CosmoInfinitas</span>
+                Welcome to <br />
+                <span>CosmoInfinitas</span>
               </h1>
-              <h2>An infinity world of Entertainment !</h2>
+              <br />
+              <h3>
+                Create, Explore and Trade in the first ever
+                <br /> virtual world owned by its users.
+              </h3>
 
-              <div class="btns">
-                <a
-                  href="#book-a-table"
-                  class="btn-book animated fadeInUp scrollto"
-                >
-                  Get Started
-                </a>
+              {/* <div className="container"> */}
+              <div className="row">
+                <div className="col-6 justify-content-end">
+                  <div class="btns">
+                    <a
+                      href="#book-a-table"
+                      class="btn-book animated fadeInUp scrollto"
+                    >
+                      Get Started
+                    </a>
+                  </div>
+                </div>
+                <div className="col-6 justify-content-start">
+                  <div class="btns">
+                    <a
+                      href="#book-a-table"
+                      class="btn-book animated fadeInUp scrollto"
+                    >
+                      Join Our Discord
+                    </a>
+                  </div>
+                </div>
               </div>
+              {/* </div> */}
             </div>
           </div>
         </div>
