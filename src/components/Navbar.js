@@ -18,7 +18,7 @@ const Navbar = () => {
           <ul>
             <li>
               <a className="nav-link scrollto active" href="#hero">
-                <strong>Home</strong>
+                <strong>HOME</strong>
               </a>
             </li>
             <li>
@@ -26,37 +26,37 @@ const Navbar = () => {
                 className="nav-link scrollto "
                 href="https://cosmo-marketplace.vercel.app/"
               >
-                <strong>MarketPlace</strong>
+                <strong>MARKETPLACE</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#about">
-                <strong>About</strong>
+                <strong>ABOUT</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#specials">
-                <strong>Docs</strong>
+                <strong>DOCS</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#events">
-                <strong>Events</strong>
+                <strong>EVENTS</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#chefs">
-                <strong>Blogs</strong>
+                <strong>BLOGS</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#gallery">
-                <strong>WhitePaper</strong>
+                <strong>WHITEPAPER</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#contact">
-                <strong>Contact</strong>
+                <strong>CONTACT</strong>
               </a>
             </li>
           </ul>
