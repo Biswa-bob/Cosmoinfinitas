@@ -53,7 +53,7 @@ const ViewCard = () => {
               class="col-md-6 col-ex-12 about-item wow lightSpeedIn"
               data-wow-offset="200"
             >
-              <span class="icofont-ui-user-group"></span>
+              <span class="icofont-question"></span>
               <h2>What exactly is CosmoInfinitas?</h2>
               <p class="lead">
                 Cosmo means World in Greek and Infinitas means Infinity in
@@ -65,7 +65,7 @@ const ViewCard = () => {
               class="col-md-6 col-ex-12 about-item wow lightSpeedIn"
               data-wow-offset="200"
             >
-              <span class="icofont-ui-user-group"></span>
+              <span class="icofont-at"></span>
               <h2> Why choose CosmoInfinitas?</h2>
               <p class="lead">
                 We are trying to create a world where the complete control over

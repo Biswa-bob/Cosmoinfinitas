@@ -1,12 +1,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url("../img/bg-b.jpg") !important;
+  background-image: url("../img/bg-bg.jpg") !important;
   background-repeat: repeat-y !important;
   color: #fff;
 }
+
 
 a {
   color: #cda45e;
@@ -600,6 +602,16 @@ h1 {
   animation: none;
   border-radius: 0;
 }
+#container div{
+  display:inline;
+  width:130px;
+}
+#container{
+  width:500px;
+}
+#container button{
+  background-color: transparent;
+}
 
 @media (min-width: 1024px) {
   #hero {
@@ -869,8 +881,8 @@ section {
 }
 .about .lead {
   color: #f7eaee;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 15px;
+  /* font-weight: bold; */
 }
 
 /* .about .content h3 {
