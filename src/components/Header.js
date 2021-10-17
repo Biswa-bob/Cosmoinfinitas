@@ -18,39 +18,6 @@ const Header = () => {
               <br />
               <h3>An Infinity World of Entertainment</h3>
 
-              {/* <div className="container"> */}
-              {/* <div className="row">
-                <div className="col-lg-6 justify-content-end">
-                  <div className="btns">
-                    <a
-                      href="#book-a-table"
-                      class="btn-book animated fadeInUp scrollto"
-                    >
-                      Get Started
-                    </a>
-                   
-                  </div>
-                  <div className="btn">
-                    <a
-                      href="#book-a-table"
-                      class="btn-book animated fadeInUp scrollto"
-                    >
-                      Join Our Discord
-                    </a>
-                  </div>
-                </div> */}
-              {/* <div className="col-lg-6 justify-content-start" id="btn">
-                  <div className="btns">
-                    <a
-                      href="#book-a-table"
-                      class="btn-book animated fadeInUp scrollto"
-                    >
-                      Join Our Discord
-                    </a>
-                  </div>
-                </div> */}
-              {/* </div> */}
-              {/* </div> */}
               <div id="container">
                 <div>
                   <button
