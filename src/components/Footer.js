@@ -69,40 +69,12 @@ const Footer = () => {
                 </div>
               </div>
 
-              {/* <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Web Design</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Web Development</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Product Management</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Marketing</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Graphic Design</a>
-                  </li>
-                </ul>
-              </div> */}
               <div className="col-lg-5 col-md-6 footer-newsletter">
                 <h4>Our Newsletter</h4>
-                <p>
-                  Tamen quem nulla quae legam multos aute sint culpa legam
-                  noster magna
-                </p>
+                <p>Stay connected with us </p>
                 <form action="" method="post">
                   <input type="email" name="email" />
-                  <input type="submit" value="Subscribe" />
+                  <input type="submit" value="Coming Soon . . ." />
                 </form>
               </div>
             </div>
