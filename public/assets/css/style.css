@@ -505,6 +505,9 @@ h1 {
 #hero .btns {
   margin-top: 30px;
 }
+#hero .discord {
+  color: white;
+}
 
 #hero .btn-menu,
 #hero .btn-book {

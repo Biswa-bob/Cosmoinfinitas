@@ -32,7 +32,13 @@ const Header = () => {
                     type="submit"
                     class="btn-book animated fadeInUp scrollto"
                   >
-                    Join our discord
+                    <a
+                      className="discord"
+                      href="https://discord.gg/kgRAGZHQ"
+                      target="_blank"
+                    >
+                      Join our discord
+                    </a>
                   </button>
                 </div>
               </div>
