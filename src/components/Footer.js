@@ -44,9 +44,9 @@ const Footer = () => {
                     Odisha, India
                     <br />
                     <br />
-                    <strong>Phone:</strong> +91 558 9554 885
+                    <strong>Phone:</strong> +91 7609 96 1010 , +91 9658 00 6706
                     <br />
-                    <strong>Email:</strong> info@example.com
+                    <strong>Email:</strong> cosmoinfinitas@gmail.com
                     <br />
                   </p>
                   <div className="social-links mt-3">
