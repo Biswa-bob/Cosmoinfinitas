@@ -16,10 +16,7 @@ const Header = () => {
                 <span>CosmoInfinitas</span>
               </h1>
               <br />
-              <h3>
-                Create, Explore and Trade in the first ever
-                <br /> virtual world owned by its users.
-              </h3>
+              <h3>An Infinity World of Entertainment</h3>
 
               {/* <div className="container"> */}
               {/* <div className="row">
@@ -42,7 +39,7 @@ const Header = () => {
                     </a>
                   </div>
                 </div> */}
-                {/* <div className="col-lg-6 justify-content-start" id="btn">
+              {/* <div className="col-lg-6 justify-content-start" id="btn">
                   <div className="btns">
                     <a
                       href="#book-a-table"
@@ -55,10 +52,23 @@ const Header = () => {
               {/* </div> */}
               {/* </div> */}
               <div id="container">
-    <div><button type="submit" class="btn-book animated fadeInUp scrollto" >Get Started</button></div>
-    <div><button type="submit" class="btn-book animated fadeInUp scrollto" >Join our discord</button></div>
-    
-</div>
+                <div>
+                  <button
+                    type="submit"
+                    class="btn-book animated fadeInUp scrollto"
+                  >
+                    Get Started
+                  </button>
+                </div>
+                <div>
+                  <button
+                    type="submit"
+                    class="btn-book animated fadeInUp scrollto"
+                  >
+                    Join our discord
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
