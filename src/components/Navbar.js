@@ -24,7 +24,7 @@ const Navbar = () => {
             <li>
               <a
                 className="nav-link scrollto "
-                href="https://cosmo-marketplace.vercel.app/"
+                href="https://cosmoinfinitas-marketplace.vercel.app/"
               >
                 <strong>MARKETPLACE</strong>
               </a>
