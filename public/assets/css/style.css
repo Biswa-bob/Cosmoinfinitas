@@ -3,9 +3,11 @@
 --------------------------------------------------------------*/
 
 body {
-  font-family: "Open Sans", sans-serif;
-  background-image: url("../img/bg-bg.jpg") !important;
-  background-repeat: repeat-y !important;
+  font-family: "Poppins", sans-serif;
+  /* background-image: url("../img/bg-bg.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #00070d;
   color: #fff;
 }
 
@@ -214,7 +216,7 @@ h1 {
 --------------------------------------------------------------*/
 .book-a-table-btn {
   margin: 0 0 0 15px;
-  border: 2px solid #27aae1;
+  border: 2px solid #e8070d;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -226,7 +228,7 @@ h1 {
 }
 
 .book-a-table-btn:hover {
-  background: #65bfe2;
+  background: #73070e;
   color: #fff;
 }
 
@@ -282,7 +284,7 @@ h1 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #d9ba85;
+  color: #961019;
 }
 
 .navbar .dropdown ul {
@@ -465,7 +467,7 @@ h1 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -493,7 +495,7 @@ h1 {
 }
 
 #hero h1 span {
-  color: #27aae1;
+  color: #e8070d;
 }
 
 #hero h3 {
@@ -521,12 +523,12 @@ h1 {
   transition: 0.3s;
   line-height: 1;
   color: white;
-  border: 2px solid #27aae1;
+  border: 2px solid #e8070d;
 }
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
-  background: #729ff1;
+  background: #73070e;
   color: #fff;
 }
 
@@ -852,6 +854,7 @@ section {
 }
 .about h2 {
   opacity: 0.8;
+  margin-top: 15px;
 }
 .about span {
   display: block;
@@ -861,7 +864,7 @@ section {
   margin: auto;
   border-radius: 50%;
   font-size: 40px;
-  color: #ffffff;
+  color: rgb(151, 12, 23);
   opacity: 0.7;
   background-color: transparent;
   border: 2px solid #eff3f3;
@@ -873,7 +876,7 @@ section {
 }
 .about-item:hover span {
   opacity: 1;
-  border: 2px solid #0b4881;
+  border: 2px solid rgb(116, 4, 14);
   font-size: 42px;
   -webkit-transform: scale(1.1, 1.1) rotate(360deg);
   -moz-transform: scale(1.1, 1.1) rotate(360deg);
@@ -946,7 +949,7 @@ section {
   font-size: 50px;
 }
 .our-team {
-  background: #f5fafc;
+  background: #1615156c;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -954,6 +957,7 @@ section {
   padding: 30px 70px !important;
   width: 30%;
   border-radius: 15px;
+  color: whitesmoke;
 }
 .our-team .pic {
   display: inline-block;
@@ -973,7 +977,7 @@ section {
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background: #27aae1;
+  background: rgb(126, 3, 13);
   position: absolute;
   bottom: 135%;
   right: 0;
@@ -990,7 +994,7 @@ section {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #052c75;
+  background: rgb(110, 5, 14);
   position: absolute;
   top: 0;
   left: 0;
@@ -1016,7 +1020,7 @@ section {
 
   font-weight: 700;
 
-  color: #4e5052;
+  color: #f2f4f7;
 
   letter-spacing: 1px;
 
@@ -1025,7 +1029,7 @@ section {
 .our-team .post {
   display: block;
   font-size: 15px;
-  color: #4e5052;
+  color: #f2f4f7;
 }
 .our-team .social {
   width: 100%;
@@ -1035,7 +1039,7 @@ section {
   margin: 0;
 
   /* background: #042747; */
-  background: #060648;
+  background: rgb(59, 2, 7);
 
   position: absolute;
 
@@ -1284,8 +1288,11 @@ section {
 }
 .conten .left-side .details i {
   font-size: 30px;
-  color: #1e76be;
+  color: #fcf8f8;
   margin-bottom: 10px;
+}
+.conten .left-side .details i:hover {
+  color: #a80911;
 }
 .conten .left-side .details .topic {
   font-size: 18px;
@@ -1339,12 +1346,12 @@ section {
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #0e6fdd;
+  background: #a80911;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button input[type="button"]:hover {
-  background: #5029bc;
+  background: #45070e;
 }
 
 @media (max-width: 950px) {
@@ -1520,14 +1527,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #27aae1;
+  background: #a80911;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #022853;
+  background: #45070e;
 }
 
 #footer .copyright {
